@@ -10,7 +10,7 @@ redditoGuadagnato= st.number_input("quanto hai guadagnato? ")# qui chiedo all'ut
  # i+=1
   #redditoGuadagnato+=100
 diminuzionePc= (redditoGuadagnato - 100)/100*67
-print("redditoGuadagnato =",   redditoGuadagnato, " >>> diminuzionePc =", diminuzionePc)
+st.write("redditoGuadagnato =",   redditoGuadagnato, " >>> diminuzionePc =", diminuzionePc)
 
 # Tabella di confronto per qualche valore di riferimento
 #valori_riferimento = [100, 200, 500, 800, 1000]
