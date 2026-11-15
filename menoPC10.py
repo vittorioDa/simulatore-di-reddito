@@ -14,7 +14,7 @@ while i < 21:
     righe.append({
         "Iterazione": i,
         "Reddito guadagnato": reddito_guadagnato,
-        "Diminuzione %": diminuzione_pc,
+        "Diminuz complementare": diminuzione_pc,
     })
 
 df = pd.DataFrame(righe)
@@ -23,8 +23,8 @@ st.dataframe(df, use_container_width=True)
 
 st.line_chart(
     df.rename(columns={
-        "Iterazione": "iterazione",
+       # "Iterazione": "iterazione",
         "Reddito guadagnato": "reddito",
-        "Diminuzione %": "diminuzione",
+        "Diminuz  Prestaz Compl.": "diminuzione",
     }).set_index("iterazione")
 )
