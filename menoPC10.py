@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("📈 Simulatore reddito")
+st.title("📈 Relazione tra guadagno e prestazione complementare")
 
 righe = []
 reddito_guadagnato = 0
