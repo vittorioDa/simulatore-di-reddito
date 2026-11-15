@@ -23,7 +23,7 @@ st.dataframe(df, use_container_width=True)
 
 st.line_chart(
     df.rename(columns={
-       # "Iterazione": "iterazione",
+        "Iterazione": "iterazione",
         "Reddito guadagnato": "reddito",
         "Diminuz  Prestaz Compl.": "diminuzione",
     }).set_index("iterazione")
