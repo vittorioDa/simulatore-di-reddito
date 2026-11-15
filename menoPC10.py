@@ -10,7 +10,7 @@ i = 0
 while i < 21:
     i += 1
     reddito_guadagnato += 100
-    diminuzione_pc = (reddito_guadagnato - 100) / 100 * 60
+    diminuzione_pc = (reddito_guadagnato - 100) / 100 * 67
     righe.append({
         "Iterazione": i,
         "Reddito guadagnato": reddito_guadagnato,
