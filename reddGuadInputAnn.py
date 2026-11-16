@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("📉 Simulatore diminuzione reddito")
+st.title("📉 Simulatore diminuzione complementare")
 redditoGuadagnato = 1500
 redditoGuadagnato=st.number_input("quanto hai guadagnato annualmente?  ")# qui chiedo all'utente quindi dovrò annullare il ciclo while 
 #i=0
