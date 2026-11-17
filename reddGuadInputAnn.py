@@ -12,8 +12,8 @@ diminuzionePc =0
 diminuzionePc= (redditoGuadagnato - 1500)/100*67
 if redditoGuadagnato >= 1500:
     st.write("redditoAnnualeGuadagnato =",   redditoGuadagnato, " >>> diminuzioneAnnualePc =", diminuzionePc)
-    else:
-      st.write("fino a 1500, non dimunuisce la prestazione complementare")
+else:
+    st.write("fino a 1500, non dimunuisce la prestazione complementare")
 
 # Tabella di confronto per qualche valore di riferimento
 valori_riferimento = [1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000]
