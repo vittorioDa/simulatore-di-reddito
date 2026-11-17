@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("📉 Simulatore diminuzione complementare")
 redditoGuadagnato = 1500
-redditoGuadagnato=st.number_input("quanto hai guadagnato annualmente?", step=1 ")# qui chiedo all'utente quindi dovrò annullare il ciclo while 
+redditoGuadagnato=st.number_input("quanto hai guadagnato annualmente?", step=1 )# qui chiedo all'utente quindi dovrò annullare il ciclo while 
 #i=0
 diminuzionePc =0
 #while i<21:
